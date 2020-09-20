@@ -2,6 +2,7 @@
 #'
 #' Returns the address space map of a process as a data frame.
 #'
+#' @param ... Reserved for future extensions, must be empty.
 #' @param as_tibble When using in a package, set to `TRUE` to return a
 #'   [tibble::tibble].
 #'   This requires the tibble package to be installed.
@@ -11,18 +12,13 @@
 #' @export
 #' @examples
 #' procmap_get()
-procmap_get <- function(as_tibble = NULL) {
-  lines <- .Call(procmaps_c_procmap_get)
+procmap_get <- function(..., as_tibble = NULL) {
+  if (length(list(...)) > 0) {
+    stop("... must be empty.", call. = FALSE)
+  }
 
-  data <- utils::read.delim(
-    text = lines,
-    sep = "\x1f",
-    header = FALSE,
-    colClasses = "character"
-  )
-
-  # https://stackoverflow.com/a/1401595/946850
-  names(data) <- c("from", "to", "perms", "offset", "dev", "inode", "pathname")
+  data <- .Call(procmaps_c_procmap_get_df)
+  names(data) <- c("from", "to", "perms", "offset", "inode", "pathname")
 
   as_tibble_if(data, as_tibble)
 }
