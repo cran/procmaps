@@ -1,6 +1,6 @@
-df3a7f4ff8d31b43e32c01294966bb1b *DESCRIPTION
+635758325ffe084aba1a7ec5ede41c5d *DESCRIPTION
 49de9d7dbd5a3b8ba051ee74efa408db *NAMESPACE
-99855f8b30ba0f4aec1c6fa8adcf1be0 *NEWS.md
+1037d5a8717214ea16182f26e132437f *NEWS.md
 2b703cbb84c008fe9e8038228cd000bc *R/get.R
 64e91f8973d308977c667f19655b996e *R/is-libr.R
 179e795f8418f617f0af036ebcff7d15 *R/procmaps-package.R
@@ -21,7 +21,7 @@ f2766448e74c24bd1c1c5d12466093ae *src/vendor/gperftools/INSTALL
 9a60286088aa5d3ff8cd19caf2681537 *src/vendor/gperftools/README
 fc331fccdec8e9519051e9c691399a16 *src/vendor/gperftools/src/base/basictypes.h
 24dee45b05330d34c84247d3168561e4 *src/vendor/gperftools/src/base/logging.h
-3df5cc8bab17512c82a93ee4dfd5deb1 *src/vendor/gperftools/src/base/sysinfo.cc
+51f98f6115ddaec78735cff03c3a0f24 *src/vendor/gperftools/src/base/sysinfo.cc
 fdab857fa6edd00e182242701eaea0cc *src/vendor/gperftools/src/base/sysinfo.h
 fede524a0c9c19f2fba7d82ac48c3314 *tests/output.R
 86c3650e353ebada4aedd4b58ce5d3a4 *tests/testthat.R
