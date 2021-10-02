@@ -1,11 +1,11 @@
-635758325ffe084aba1a7ec5ede41c5d *DESCRIPTION
+817c755bc3b613edb43e2a38c483103a *DESCRIPTION
 49de9d7dbd5a3b8ba051ee74efa408db *NAMESPACE
-1037d5a8717214ea16182f26e132437f *NEWS.md
+63428fb5ae528f1353b7ad79925accfe *NEWS.md
 2b703cbb84c008fe9e8038228cd000bc *R/get.R
 64e91f8973d308977c667f19655b996e *R/is-libr.R
 179e795f8418f617f0af036ebcff7d15 *R/procmaps-package.R
 4cb5f47ac074ccddcd715c92e27e1498 *R/tibble.R
-65adf0afc8f76ca9c5b54edf4ceda39c *README.md
+d4d14e675b0f82a1bcbb54708eee9c95 *README.md
 0e0b08dfe4c872e0f508aa9ad87bf2d6 *inst/WORDLIST
 521d8bb6b5f0bfdcd237fcc07ccb235e *man/path_is_libr.Rd
 1304137d95e0ebdf566302bb27952839 *man/procmap_get.Rd
@@ -25,4 +25,4 @@ fc331fccdec8e9519051e9c691399a16 *src/vendor/gperftools/src/base/basictypes.h
 fdab857fa6edd00e182242701eaea0cc *src/vendor/gperftools/src/base/sysinfo.h
 fede524a0c9c19f2fba7d82ac48c3314 *tests/output.R
 86c3650e353ebada4aedd4b58ce5d3a4 *tests/testthat.R
-8a5d9c17d54ad6c496874075c8173199 *tests/testthat/test-get.R
+f70c85ff45eda076ae9a22caf7ac34f9 *tests/testthat/test-get.R
