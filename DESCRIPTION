@@ -1,12 +1,12 @@
 Package: procmaps
 Title: Portable Address Space Mapping
-Version: 0.0.4
-Date: 2021-10-01
+Version: 0.0.5
+Date: 2023-01-19
 Authors@R: 
     c(person(given = "Kirill",
              family = "M\u00fcller",
              role = c("aut", "cre"),
-             email = "krlmlr+r@mailbox.org",
+             email = "kirill@cynkra.com",
              comment = c(ORCID = "0000-0002-1416-3412")),
       person(given = "R Consortium",
              role = "fnd"),
@@ -41,15 +41,15 @@ URL: https://r-prof.github.io/procmaps/,
 BugReports: https://github.com/r-prof/procmaps/issues
 Suggests: covr, testthat, tibble
 Encoding: UTF-8
-RoxygenNote: 7.1.1.9000
+RoxygenNote: 7.2.3
 NeedsCompilation: yes
-Packaged: 2021-10-01 18:55:58 UTC; kirill
+Packaged: 2023-01-19 20:11:56 UTC; kirill
 Author: Kirill Müller [aut, cre] (<https://orcid.org/0000-0002-1416-3412>),
   R Consortium [fnd],
   Kostya Serebryany [ctb] (Bundled gperftools library),
   Sanjay Ghemawat [ctb] (Bundled gperftools library),
   Craig Silverstein [ctb] (Bundled gperftools library),
   Google Inc. [cph] (Bundled gperftools library)
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>
+Maintainer: Kirill Müller <kirill@cynkra.com>
 Repository: CRAN
-Date/Publication: 2021-10-02 13:40:02 UTC
+Date/Publication: 2023-01-20 17:10:02 UTC
